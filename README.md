@@ -37,8 +37,10 @@ SQL-based analysis of hospital operations including patients, doctors, appointme
 - Combine patient lists from appointments and treatments without duplicates (**UNION**)
 - Generate billing status per patient using a **User-Defined Function**
 - Generate invoices automatically using **Stored Procedures**
+- Rank doctors by total treatment cost (**RANK**, **DENSE_RANK**, **ROW_NUMBER**)
+- Transaction control demo using **SAVEPOINT**, **ROLLBACK**, and **COMMIT**
 
-- ## How to Run
+## How to Run
 
 1. **Install MySQL**
    - Download and install MySQL Server: [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
@@ -48,5 +50,3 @@ SQL-based analysis of hospital operations including patients, doctors, appointme
    ```bash
    git clone https://github.com/Varsha585/Hospital-Management-SQL.git
    cd Hospital-Management-SQL
-- Rank doctors by total treatment cost (**RANK**, **DENSE_RANK**, **ROW_NUMBER**)
-- Transaction control demo using **SAVEPOINT**, **ROLLBACK**, and **COMMIT**
