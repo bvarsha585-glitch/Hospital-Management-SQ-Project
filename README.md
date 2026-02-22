@@ -51,12 +51,14 @@ Transaction Control: SAVEPOINT, ROLLBACK, COMMIT
 
 ## How to Run
 
-1. **Install MySQL**
-   - Download and install MySQL Server: [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
-   - Install MySQL Workbench (optional) for GUI.
+### 1. Install MySQL
+- Download and install **MySQL Server**: https://dev.mysql.com/downloads/mysql/
+- Install **MySQL Workbench** (optional, for GUI).
 
-2. git clone https://github.com/Varsha585/Hospital-Management-SQL.git
-cd Hospital-Management-SQL
+### 2. Clone the Repository
+```bash
+git clone https://github.com/bvarsha585-glitch/Hospital-Management-SQL-Project.git
+cd Hospital-Management-SQL-Project
 
 ## set data base
 CREATE DATABASE hospitaldb;
@@ -69,6 +71,17 @@ SOURCE views.sql;         -- Create views
 SOURCE indexes.sql;       -- Create indexes
 SOURCE transactions.sql;  -- Run transactions
 
-
+## screen shot/
+  ##inner join
+  innerjoin.png
+## left join
+  leftjoin.png
+## right join
+  rightjoin.png
+## strored procedure
+  storedprocedure.png
+##transaction
+   transaction.png
+   
 
    
